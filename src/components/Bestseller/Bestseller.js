@@ -14,6 +14,8 @@ const Bestseller = (props) => {
                     <div className="card-group">
                         <div className="card">
                             <img className="card-img-top" src={product} alt="Card image cap" />
+                            <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            <i className="fas fa-heart"></i>
                             <div className="card-body text-start">
                                 <h5 className="card-title">Cruise Dual Analog</h5>
                                 <p><span className="renoshop fs-5">$250.00</span></p>
@@ -27,6 +29,8 @@ const Bestseller = (props) => {
                         </div>
                         <div className="card">
                             <img className="card-img-top" src={product} alt="Card image cap" />
+                            <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            <i className="fas fa-heart"></i>
                             <div className="card-body text-start">
                                 <h5 className="card-title">Crown Summit Backpack</h5>
                                 <p><span className="renoshop fs-5">$250.00</span></p>
@@ -40,6 +44,8 @@ const Bestseller = (props) => {
                         </div>
                         <div className="card">
                             <img className="card-img-top" src={product} alt="Card image cap" />
+                            <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            <i className="fas fa-heart"></i>
                             <div className="card-body text-start">
                                 <h5 className="card-title">Joust Duffle Bag</h5>
                                 <p><span className="renoshop fs-5">$250.00</span></p>
@@ -53,6 +59,8 @@ const Bestseller = (props) => {
                         </div>
                         <div className="card">
                             <img className="card-img-top" src={product} alt="Card image cap" />
+                            <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            <i className="fas fa-heart"></i>
                             <div className="card-body text-start">
                                 <h5 className="card-title">Joust Duffle Bag</h5>
                                 <p><span className="renoshop fs-5">$250.00</span></p>

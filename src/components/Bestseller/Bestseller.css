@@ -25,8 +25,13 @@
     color: white;
     top: 0;
     right: 0;
-    margin: 20px;
-    padding: 20px;
+    margin: 19px;
+    padding: 19px;
+    opacity: 0;
+}
+
+.card:hover .fa-shopping-cart {
+    opacity:1;
 }
 
 .card .fa-heart {
@@ -39,6 +44,11 @@
     margin: 20px;
     margin-top: 80px;
     padding: 20px;
+    opacity: 0;
+}
+
+.card:hover .fa-heart {
+    opacity:1;
 }
 
 .fa-star {

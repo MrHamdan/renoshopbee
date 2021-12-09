@@ -8,8 +8,8 @@ import './Offers.css';
 const Offers = () => {
     return (
         <div className="offer-section">
-            <div className="offers-bg-color d-flex justify-content-evenly">
-                <div className="" style={{ width: '18rem' }}>
+            <div className="offers-bg-color d-flex justify-content-evenly mx-auto row">
+                <div className="" style={{ width: 'auto' }}>
                     <div className="card-body">
                         <img src={offer1} alt="" className="offer-image mx-auto" />
                         <h6 className="card-subtitle mb-2  mt-2 fs-4 fw-bold">SPECIAL OFFERS</h6>
@@ -17,7 +17,7 @@ const Offers = () => {
 
                     </div>
                 </div>
-                <div className="" style={{ width: '18rem' }}>
+                <div className="" style={{ width: 'auto' }}>
                     <div className="card-body">
                         <img src={offer2} alt="" className="offer-image mx-auto" />
 
@@ -26,7 +26,7 @@ const Offers = () => {
 
                     </div>
                 </div>
-                <div className="" style={{ width: '18rem' }}>
+                <div className="" style={{ width: 'auto' }}>
                     <div className="card-body">
                         <img src={offer3} alt="" className="offer-image mx-auto" />
 
@@ -35,7 +35,7 @@ const Offers = () => {
 
                     </div>
                 </div>
-                <div className="" style={{ width: '18rem' }}>
+                <div className="" style={{ width: 'auto' }}>
                     <div className="card-body">
                         <img src={offer4} alt="" className="offer-image mx-auto" />
 

@@ -1,12 +1,13 @@
 .offers-bg-color{
     background-color: #f5f5f5;
+    padding: 50px;
 }
 .offer-image{
     width: 41px !important;
     height: 41px !important;
 }
 .card{
-    background-color: #f5f5f5;
+    background-color: none;
 }
 .offer-section{
     margin-top: 120px;

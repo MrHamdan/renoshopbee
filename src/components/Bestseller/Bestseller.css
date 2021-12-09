@@ -8,6 +8,10 @@
     margin: 10px;
 }
 
+.card-body{
+    background-color: none;
+}
+
 .card img {
     position: relative;
     width: 333px;

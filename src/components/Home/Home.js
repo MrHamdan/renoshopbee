@@ -4,6 +4,7 @@ import Banner from '../Banner/Banner';
 import Bestseller from '../Bestseller/Bestseller';
 import Contactbar from '../Contactbar/Contactbar';
 import Navbar from '../Navbar/Navbar';
+import Offers from '../Offers/Offers';
 import './Home.css';
 const Home = () => {
     const [cart, setCart] = useState("");
@@ -18,6 +19,7 @@ const Home = () => {
             <Navbar cart={cart} />
             <Banner />
             <Bestseller handleAddToCart={handleAddToCart} />
+            <Offers />
         </div>
     );
 };

@@ -3,7 +3,7 @@ import './Bestseller.css';
 import product from '../../images/pexels-photo-821651.png';
 const Bestseller = (props) => {
     return (
-        <div>
+        <div className="bestseller-section">
             <div className="row d-flex align-items-center mx-5">
                 <div className="col-lg-3 col-md-12 col-12 text-start">
                     <h1><span className="fs-2 fw-bold">BEST SELLERS</span></h1>

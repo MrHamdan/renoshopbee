@@ -10,37 +10,57 @@ const Bestseller = (props) => {
                     <h6><span className="renoshop fs-5 fw-bold">The best production from us</span></h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis optio magni a, deserunt itaque laboriosam laudantium excepturi voluptas totam vitae!</p>
                 </div>
-                <div className="col-lg-9 col-md-12 col-12">
-                    <div class="card-group">
-                        <div class="card">
-                            <img class="card-img-top" src={product} alt="Card image cap" />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-
+                <div className="col-lg-9 col-md-12 col-12 ">
+                    <div className="card-group">
+                        <div className="card">
+                            <img className="card-img-top" src={product} alt="Card image cap" />
+                            <div className="card-body text-start">
+                                <h5 className="card-title">Cruise Dual Analog</h5>
+                                <p><span className="renoshop fs-5">$250.00</span></p>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="far fa-star"></i>
                             </div>
 
                         </div>
-                        <div class="card">
-                            <img class="card-img-top" src={product} alt="Card image cap" />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-
+                        <div className="card">
+                            <img className="card-img-top" src={product} alt="Card image cap" />
+                            <div className="card-body text-start">
+                                <h5 className="card-title">Crown Summit Backpack</h5>
+                                <p><span className="renoshop fs-5">$250.00</span></p>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="far fa-star"></i>
                             </div>
 
                         </div>
-                        <div class="card">
-                            <img class="card-img-top" src={product} alt="Card image cap" />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-
+                        <div className="card">
+                            <img className="card-img-top" src={product} alt="Card image cap" />
+                            <div className="card-body text-start">
+                                <h5 className="card-title">Joust Duffle Bag</h5>
+                                <p><span className="renoshop fs-5">$250.00</span></p>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="far fa-star"></i>
                             </div>
 
                         </div>
-                        <div class="card">
-                            <img class="card-img-top" src={product} alt="Card image cap" />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-
+                        <div className="card">
+                            <img className="card-img-top" src={product} alt="Card image cap" />
+                            <div className="card-body text-start">
+                                <h5 className="card-title">Joust Duffle Bag</h5>
+                                <p><span className="renoshop fs-5">$250.00</span></p>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="far fa-star"></i>
                             </div>
 
                         </div>

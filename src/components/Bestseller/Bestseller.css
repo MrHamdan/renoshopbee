@@ -1,0 +1,38 @@
+.card {
+    border: none;
+    gap: 10px;
+    margin: 10px;
+}
+
+.card img {
+    position: relative;
+    width: 333px;
+    height: 451px;
+}
+
+.card .fa-shopping-cart {
+
+    position: absolute;
+    background: green;
+    color: white;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card .fa-heart {
+
+    position: absolute;
+    background: green;
+    color: white;
+    top: 20;
+    right: 0;
+    margin: 20px;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.fa-star {
+    color: orange;
+}

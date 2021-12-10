@@ -1,0 +1,30 @@
+.specialdiscount{
+    margin-top: 100px;
+}
+.coupon-design {
+    background-image: url("../../images/coupon.png");
+   }
+.coupon-design-two {
+    background-image: url("../../images/logos.png");
+   }
+   .letter-from {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .letter-from input {
+    padding: 0.2em 1em;
+   }
+   .btn-success {
+    background-color: #3cb978;
+    padding: 8px;
+   }
+   .newsletter-logos {
+    background-color: #f5f6fa;
+   }
+   .info-text {
+    padding-top: 1em;
+   }
+   .info-text-left {
+    border-right: 1px solid gray;
+   }

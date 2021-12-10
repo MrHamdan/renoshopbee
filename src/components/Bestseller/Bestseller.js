@@ -4,7 +4,7 @@ import product from '../../images/pexels-photo-821651.png';
 const Bestseller = (props) => {
     return (
         <div className="bestseller-section">
-            <div className="row d-flex align-items-center mx-5">
+            <div className="row d-flex align-items-center mx-1">
                 <div className="col-lg-3 col-md-12 col-12 text-start">
                     <h1><span className="fs-2 fw-bold">BEST SELLERS</span></h1>
                     <h6><span className="renoshop fs-5 fw-bold">The best production from us</span></h6>
@@ -14,7 +14,7 @@ const Bestseller = (props) => {
                     <div className="card-group">
                         <div className="card">
                             <img className="card-img-top" src={product} alt="Card image cap" />
-                            <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            <i onClick={() => props.handleAddToCart()} className="fas fa-shopping-cart"></i>
                             <i className="fas fa-heart"></i>
                             <div className="card-body text-start">
                                 <h5 className="card-title">Cruise Dual Analog</h5>
@@ -29,7 +29,7 @@ const Bestseller = (props) => {
                         </div>
                         <div className="card">
                             <img className="card-img-top" src={product} alt="Card image cap" />
-                            <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            <i onClick={() => props.handleAddToCart()} className="fas fa-shopping-cart"></i>
                             <i className="fas fa-heart"></i>
                             <div className="card-body text-start">
                                 <h5 className="card-title">Crown Summit Backpack</h5>
@@ -44,7 +44,7 @@ const Bestseller = (props) => {
                         </div>
                         <div className="card">
                             <img className="card-img-top" src={product} alt="Card image cap" />
-                            <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            <i onClick={() => props.handleAddToCart()} className="fas fa-shopping-cart"></i>
                             <i className="fas fa-heart"></i>
                             <div className="card-body text-start">
                                 <h5 className="card-title">Joust Duffle Bag</h5>
@@ -59,7 +59,7 @@ const Bestseller = (props) => {
                         </div>
                         <div className="card">
                             <img className="card-img-top" src={product} alt="Card image cap" />
-                            <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            <i onClick={() => props.handleAddToCart()} className="fas fa-shopping-cart"></i>
                             <i className="fas fa-heart"></i>
                             <div className="card-body text-start">
                                 <h5 className="card-title">Joust Duffle Bag</h5>
